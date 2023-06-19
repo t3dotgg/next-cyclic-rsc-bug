@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+
+// This cyclic import causes some really weird errors at times, it's tame on this repro
 import { SomeCommonHelper } from "./server";
 
 export const Counter = () => {
